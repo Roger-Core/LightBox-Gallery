@@ -1,0 +1,45 @@
+body {
+    background-color: gainsboro;
+}
+
+.titulo {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .7);
+    border-radius: 15px;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0px;
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: black;
+    box-shadow: 5px 5px white;
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+}
+
+.galeria .col {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .materialbox-caption {
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .materialbox-caption {
+        width: 70%;
+    }
+}
